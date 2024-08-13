@@ -1,6 +1,6 @@
 {
   "name": "xtnsn",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "The CLI for your next Chrome Extension.",
   "main": "index.js",
   "bin": {
