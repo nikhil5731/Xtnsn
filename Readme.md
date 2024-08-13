@@ -14,8 +14,8 @@ Get up and running quickly with the Chrome Extension CLI:
 Install my-project with npm
 
 ```bash
-npm install -g chrome-extension-cli
-chrome-extension-cli my-extension
+npm install -g xtnsn
+xtnsn my-extension
 cd my-extension
 npm run watch
 ```
@@ -37,7 +37,7 @@ When ready for the Chrome Web Store, run ```npm run build``` to create a minifie
 ## Usage
 
 ```bash
-chrome-extension-cli <project-name>
+xtnsn <project-name>
 ```
 
 This creates a new directory with the following structure:
@@ -88,24 +88,24 @@ Customize your project with options:
 
 - **Override Pages:**
     ```
-    chrome-extension-cli my-extension --override-page
-    chrome-extension-cli my-extension --override-page=bookmarks
-    chrome-extension-cli my-extension --override-page=history
+    xtnsn my-extension --override-page
+    xtnsn my-extension --override-page=bookmarks
+    xtnsn my-extension --override-page=history
     ```
 
 - **DevTools Panel:**
     ```
-    chrome-extension-cli my-extension --devtools
+    xtnsn my-extension --devtools
     ```
 
 - **Side Panel:**
     ```
-    chrome-extension-cli my-extension --side-panel
+    xtnsn my-extension --side-panel
     ```
 
 - **Language Support:**
     ```
-    chrome-extension-cli my-extension --language=javascript
-    chrome-extension-cli my-extension --language=typescript
+    xtnsn my-extension --language=javascript
+    xtnsn my-extension --language=typescript
     ```
 
